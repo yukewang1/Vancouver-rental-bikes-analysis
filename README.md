@@ -1,6 +1,12 @@
-# 733 Final Project
+# Analytics on Mobibikes Vancouver Datasets - Final Project of CMPT 733
 
-Welcome to group CWJY's term project repository!
+## Yuke's Contribution
+
+This project is holistic in data analytics, consisting of ETL of data sets, machine learning algorithms for analytics, a back-end Flask server in Python running RESTful APIs, and front-end Javascript pages to display the results.
+
+I'm responsible for processing the datasets, which includes acquisition and ETL, and developing all back-end functionalities, including the Flask server and helper functions to machine learning algorithms. 
+
+## Welcome to group CWJY's term project repository!
 
 ## How to run
 
@@ -14,10 +20,10 @@ The Flask data server needs to be running in order for the front-end to gather d
 
 ### Front-end host
 
-- cd /src/data_server
-- python ./server.py
-- Replace the API in googleapis script in main.html file
-- Use chrome open: src/map_visual/main.html
+- `cd /src/data_server`
+- `python3 ./server.py`
+- Replace the API in googleapis script in `main.html` file
+- Use your browser to open: `src/map_visual/main.html`
 
 ### Machine learning models
 
